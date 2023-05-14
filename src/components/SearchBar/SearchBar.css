@@ -1,0 +1,19 @@
+.search-bg {
+}
+.search-bg-error {
+  text-align: center;
+  text-transform: capitalize;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.star-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+}

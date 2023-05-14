@@ -1,0 +1,18 @@
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 10vw;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}

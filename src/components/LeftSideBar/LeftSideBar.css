@@ -1,0 +1,43 @@
+.left-side-bar-main-bg {
+  width: 98%;
+  background-color: white;
+  /* height: 95%; */
+  padding: 10px;
+  order: 1;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+.favourite-list {
+  list-style: none;
+  padding: 0;
+  height: 80%;
+  overflow: auto;
+}
+
+.favourite-item {
+  border-radius: 5px;
+  background-color: aliceblue;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  margin: 5px;
+  justify-content: space-between;
+}
+.delete {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+@media screen and (min-width: 720px) {
+  .left-side-bar-main-bg {
+    width: 30%;
+    height: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    order: 0;
+  }
+}

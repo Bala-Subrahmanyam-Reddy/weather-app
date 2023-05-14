@@ -1,0 +1,17 @@
+.landing-page-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100vw;
+  height: 90vh;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 720px) {
+  .landing-page-bg {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 90vh;
+  }
+}
