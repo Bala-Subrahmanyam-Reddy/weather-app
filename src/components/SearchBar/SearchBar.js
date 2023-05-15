@@ -67,7 +67,15 @@ function SearchBar() {
         ) : (
           ''
         )}
-        {query.length === 0 ? <h2>Enter city to find weather</h2> : ''}
+        {Object.keys(weatherData.data).length === 0 ? (
+          query.length === 0 ? (
+            <h3>Enter city to find weather</h3>
+          ) : (
+            ''
+          )
+        ) : (
+          ''
+        )}
       </div>
 
       {Object.keys(forecastResult).length > 0 ? (
